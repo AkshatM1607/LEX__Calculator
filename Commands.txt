@@ -1,0 +1,15 @@
+win_bison -d calculator.y         // creates calculator.tab.c and calculator.tab.h
+win_flex calculator.l            // creates lex.yy.c
+gcc calculator.tab.c lex.yy.c -o scicalc.exe -lm
+
+
+.\scicalc.exe
+
+
+
+2 + 3 * 4
+(1 + 2) * 4
+sin(1.5708)
+cos(0)
+tan(0.7854)
+2 ^ 3
