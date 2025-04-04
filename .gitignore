@@ -10,3 +10,4 @@ calculator.tab.h
 lex.yy.c
 calculator.tab.c
 calculator.tab.h
+commands.txt
